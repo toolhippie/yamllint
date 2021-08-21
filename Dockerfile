@@ -3,7 +3,7 @@ ENTRYPOINT [""]
 ENV PY_COLORS=1
 
 # renovate: datasource=pypi depName=yamllint
-ENV YAMLLINT_VERSION=1.26.2
+ENV YAMLLINT_VERSION=1.26.3
 
 RUN apk update && \
   apk upgrade && \
